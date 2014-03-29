@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^2015\.ruleml\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.2015\.ruleml\.org$
+RewriteRule ^/?$ "http\:\/\/wiki\.ruleml\.org\/index\.php\/Priv\:RuleML_2015" [R=302,L]
+
