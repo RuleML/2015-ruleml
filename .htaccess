@@ -2,5 +2,5 @@ RewriteEngine on
 
 RewriteCond %{HTTP_HOST} ^2015\.ruleml\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.2015\.ruleml\.org$
-RewriteRule ^(.*)$ "http\:\/\/www\.csw\.inf\.fu\-berlin\.de\/ruleml2015\/$1" [R=302,L]
+RewriteRule ^(.*)$ "http\:\/\/www\.csw\.inf\.fu\-berlin\.de\/ruleml2015\/index\.php\/$1" [R=302,L]
 
